@@ -1,0 +1,163 @@
+{
+	"easy": [
+		{
+			"content": "Regarder le soleil sale depuis le dessin du soleil par terre",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir un soleil avec 1 seule barre d'énergie sur 8",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Réussir un chapitre avec les 8 pièces rouges",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir un soleil en combattant un boss",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Eteindre le cul en feu d'un villageois",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Faire un chapitre sans prendre un dégât",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir votre première pièce bleue",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Effectuer une supercharge au sol",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Débloquer le premier niveau",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir son premier soleil",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Se faire envoyer en l'air",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Nettoyer un villageois",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Débloquer la zone 2 (Port Ricco)",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Détruire un graffiti",
+			"points": 1,
+			"completion": [false, false, false, false]
+		}
+	],
+	"medium": [
+		{
+			"content": "Faire chaque premier soleil des 3 premières zones",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir un soleil caché sur la place Delphino",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Eclater un boss de zone pour le 2ème fois",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Trouver une nouvelle \"buse\" de J.E.T.",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Faire sortir la crotte des sables",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Faire du surf sur un poulpe",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir un soleil sans J.E.T.",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Faire 5 combats de boss (plantes gluantes comprises)",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir un champi 1up",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Débloquer la zone 3 (Gelatot-les-flots)",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir 5 soleils",
+			"points": 2,
+			"completion": [false, false, false, false]
+		}
+	],
+	"hard": [
+		{
+			"content": "Obtenir un soleil depuis un niveau caché de la Place Delphino",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Combattre un boss sans perdre un PV du chapitre",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Prendre le canon direction le Park Pinna",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir un soleil avec 100 pièces jaunes",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir une pièce bleue dans les égouts",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Obtenir 10 pièces bleues",
+			"points": 3,
+			"completion": [false, false, false, false]
+		}
+	]
+}
