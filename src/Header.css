@@ -1,0 +1,19 @@
+nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	height: 50px;
+}
+
+nav > .link {
+	text-align: center;
+	flex-grow: 1;
+	height: 100%;
+	font-size: x-large;
+	align-items: center;
+	vertical-align: middle;
+}
+
+nav > div {
+	flex-grow: 6;
+}
