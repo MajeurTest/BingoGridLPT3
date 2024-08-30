@@ -29,8 +29,10 @@ function Egalite() {
 	const [selectedPlayer, setSelectedPlayer] = useState<number>(-1);
 	const [players, setPlayers] = useState<Player[]>(initialPlayers);
 	const [challenges, setChallenges] = useState<Challenge[][]>(initialChallenges);
+	const [isGridLoaded, setLoadedGrid] = useState<boolean>(false);
 
 	useEffect(() => {
+		if (isGridLoaded) return;
 		const challengesList = jsonChallenges as {
 			easy: Challenge[],
 			medium: Challenge[],
@@ -75,6 +77,7 @@ function Egalite() {
 			}
 		}
 		setChallenges(initialChallenges);
+		setLoadedGrid(true);
 	}, [])
 
 
