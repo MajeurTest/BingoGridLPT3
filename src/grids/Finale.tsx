@@ -183,6 +183,41 @@ function Finale() {
 			const copy = [...prev];
 			copy[selectedPlayer].bonus = bonus;
 			copy[selectedPlayer].displayPoints = copy[selectedPlayer].points + 2*bonus;
+			switch (true) {
+				case (copy[selectedPlayer].displayPoints >= 48): {
+					copy[selectedPlayer].lptPoints = 6;
+					break;
+				}
+
+				case (copy[selectedPlayer].displayPoints >= 35): {
+					copy[selectedPlayer].lptPoints = 5;
+					break;
+				}
+
+				case (copy[selectedPlayer].displayPoints >= 28): {
+					copy[selectedPlayer].lptPoints = 4;
+					break;
+				}
+
+				case (copy[selectedPlayer].displayPoints >= 20): {
+					copy[selectedPlayer].lptPoints = 3;
+					break;
+				}
+
+				case (copy[selectedPlayer].displayPoints >= 13): {
+					copy[selectedPlayer].lptPoints = 2;
+					break;
+				}
+
+				case (copy[selectedPlayer].displayPoints >= 5): {
+					copy[selectedPlayer].lptPoints = 1;
+					break;
+				}
+			
+				default:
+					copy[selectedPlayer].lptPoints = 0;
+					break;
+			}
 			return copy;
 		});
 	}
