@@ -5,8 +5,8 @@
 .bingoContainer > .playersSelector {
 	display: flex;
 	flex-direction: column;
-	width: 15%;
-	margin-right: 5%;
+	width: 17%;
+	margin-right: 3%;
 	font-weight: bold;
 }
 
@@ -78,7 +78,7 @@
 .bingoContainer > .bingoGrid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	width: 70%;
+	width: 75%;
 }
 
 .bingoGrid > div {
@@ -90,7 +90,7 @@
 	display: block;
 	text-align: center;
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.45rem;
 	height: 80%;
 	width: 80%;
 	padding: 2% 10% 0;
