@@ -10,14 +10,14 @@ const initialChallenges: Challenge[][] = [[],[],[],[]];
 
 const initialPlayers: Player[] = [
 	{
-		name: "Imjum",
+		name: "Exemple 1",
 		points: 0,
 		bonus: 0,
 		displayPoints: 0,
 		lptPoints: 0
 	},
 	{
-		name: "Weenside",
+		name: "Exemple 2",
 		points: 0,
 		bonus: 0,
 		displayPoints: 0,

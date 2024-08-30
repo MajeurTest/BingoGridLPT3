@@ -1,9 +1,9 @@
-import { Helmet } from "react-helmet"
-import Header from "../Header"
-import { useEffect, useState } from "react";
 import { Challenge, Player } from "../types/type";
 import GridElement from "../elements/GridElement";
 import PlayerSelector from "../elements/Player";
+import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
+import Header from "../Header";
 
 
 const initialChallenges: Challenge[][] = [
@@ -31,7 +31,7 @@ const initialChallenges: Challenge[][] = [
 	],
 	[
 		{
-			content: "Combattre un boss sans perdre un PV du chapitre",
+			content: "Combattre un boss sans perdre un PV de l'épisode",
 			points: 3,
 			completion: [false, false, false, false]
 		},
@@ -58,7 +58,7 @@ const initialChallenges: Challenge[][] = [
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Eclater un boss de chapitre pour la 2ème fois",
+			content: "Eclater un boss d'épisode pour la 2ème fois",
 			points: 2,
 			completion: [false, false, false, false]
 		},
@@ -90,7 +90,7 @@ const initialChallenges: Challenge[][] = [
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Faire un chapitre sans prendre de dégât",
+			content: "Faire un épisode sans prendre de dégât",
 			points: 1,
 			completion: [false, false, false, false]
 		}

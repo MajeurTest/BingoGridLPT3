@@ -1,10 +1,10 @@
-import GridElement from "../elements/GridElement"
-import PlayerSelector from "../elements/Player"
-import { useEffect, useState } from "react"
-import { Challenge, Player } from "../types/type"
-import { Helmet } from "react-helmet"
-import Header from "../Header"
-import "./grille.css"
+import { Challenge, Player } from "../types/type";
+import GridElement from "../elements/GridElement";
+import PlayerSelector from "../elements/Player";
+import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
+import Header from "../Header";
+import "./grille.css";
 
 const initialChallenges: Challenge[][] = [
 	[
@@ -24,7 +24,7 @@ const initialChallenges: Challenge[][] = [
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Finir un chapitre avec les 8 pièces rouges",
+			content: "Finir un épisode avec les 8 pièces rouges",
 			points: 1,
 			completion: [false, false, false, false]
 		},
@@ -36,7 +36,7 @@ const initialChallenges: Challenge[][] = [
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Finir un chapitre en clavier/souris",
+			content: "Combattre un boss sans perdre une seule énergie de l'épisode",
 			points: 3,
 			completion: [false, false, false, false]
 		},
@@ -85,7 +85,7 @@ const initialChallenges: Challenge[][] = [
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Obtenir un soleil avec 1 barre d'énergie (sur 8)",
+			content: "Obtenir un soleil avec 1 seule barre d'énergie (sur 8)",
 			points: 2,
 			completion: [false, false, false, false]
 		},
@@ -99,7 +99,7 @@ const initialChallenges: Challenge[][] = [
 
 const initialPlayers: Player[] = [
 	{
-		name: "Reynoxx",
+		name: "Azurit",
 		points: 0,
 		bonus: 0,
 		displayPoints: 0,

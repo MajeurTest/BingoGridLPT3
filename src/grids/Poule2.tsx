@@ -1,9 +1,9 @@
-import { Helmet } from "react-helmet"
-import PlayerSelector from "../elements/Player"
-import Header from "../Header"
-import { useEffect, useState } from "react";
 import { Challenge, Player } from "../types/type";
 import GridElement from "../elements/GridElement";
+import PlayerSelector from "../elements/Player";
+import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
+import Header from "../Header";
 
 const initialChallenges: Challenge[][] = [
 	[
@@ -23,19 +23,19 @@ const initialChallenges: Challenge[][] = [
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Faire un chapitre sans prendre de dégât",
+			content: "Faire un épisode sans prendre de dégât",
 			points: 1,
 			completion: [false, false, false, false]
 		},
 	],
 	[
 		{
-			content: "Finir un chapitre avec les 8 pièces rouges",
+			content: "Finir un épisode avec les 8 pièces rouges",
 			points: 1,
 			completion: [false, false, false, false]
 		},
 		{
-			content: "Combattre un boss sans perdre une seule énergie du chapitre",
+			content: "Finir un épisode avec clavier/souris",
 			points: 3,
 			completion: [false, false, false, false]
 		},
@@ -98,7 +98,7 @@ const initialChallenges: Challenge[][] = [
 
 const initialPlayers: Player[] = [
 	{
-		name: "Pouka",
+		name: "Jmde",
 		points: 0,
 		bonus: 0,
 		displayPoints: 0,
@@ -112,7 +112,7 @@ const initialPlayers: Player[] = [
 		lptPoints: 0
 	},
 	{
-		name: "Azurit",
+		name: "Astunz",
 		points: 0,
 		bonus: 0,
 		displayPoints: 0,
