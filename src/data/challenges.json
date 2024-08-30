@@ -11,7 +11,7 @@
 			"completion": [false, false, false, false]
 		},
 		{
-			"content": "Réussir un chapitre avec les 8 pièces rouges",
+			"content": "Réussir un épisode avec les 8 pièces rouges",
 			"points": 1,
 			"completion": [false, false, false, false]
 		},
@@ -26,7 +26,7 @@
 			"completion": [false, false, false, false]
 		},
 		{
-			"content": "Faire un chapitre sans prendre un dégât",
+			"content": "Faire un épisode sans prendre un dégât",
 			"points": 1,
 			"completion": [false, false, false, false]
 		},
@@ -41,7 +41,7 @@
 			"completion": [false, false, false, false]
 		},
 		{
-			"content": "Débloquer le premier niveau",
+			"content": "Débloquer la zone 1 (Collines Bianco)",
 			"points": 1,
 			"completion": [false, false, false, false]
 		},
@@ -62,6 +62,16 @@
 		},
 		{
 			"content": "Débloquer la zone 2 (Port Ricco)",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Aller rendre visite au naufragé",
+			"points": 1,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Faire dormir Mario",
 			"points": 1,
 			"completion": [false, false, false, false]
 		},
@@ -123,6 +133,11 @@
 			"completion": [false, false, false, false]
 		},
 		{
+			"content": "Rendre une femme heureuse avec des fruits",
+			"points": 2,
+			"completion": [false, false, false, false]
+		},
+		{
 			"content": "Obtenir 5 soleils",
 			"points": 2,
 			"completion": [false, false, false, false]
@@ -135,7 +150,7 @@
 			"completion": [false, false, false, false]
 		},
 		{
-			"content": "Combattre un boss sans perdre un PV du chapitre",
+			"content": "Combattre un boss sans perdre un PV de l'épisode",
 			"points": 3,
 			"completion": [false, false, false, false]
 		},
@@ -151,6 +166,21 @@
 		},
 		{
 			"content": "Obtenir une pièce bleue dans les égouts",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Nettoyer le gros soleil de la Place Delphino",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Nettoyer la cloche de la Place Delphino",
+			"points": 3,
+			"completion": [false, false, false, false]
+		},
+		{
+			"content": "Jouer un épisode avec clavier/souris",
 			"points": 3,
 			"completion": [false, false, false, false]
 		},
