@@ -55,15 +55,15 @@ Here are the final results of the LPT Bingo :
 
 ### Poule 1
 
-![Poule 1 Grid](Images/LPT_Grille_Poule_1.png "Poule 1 Grid")
+![Poule 1 Grid](images/LPT_Grille_Poule_1.png "Poule 1 Grid")
 
 ### Poule 2
 
-![Poule 2 Grid](Images/LPT_Grille_Poule_2.png "Poule 2 Grid")
+![Poule 2 Grid](images/LPT_Grille_Poule_2.png "Poule 2 Grid")
 
 ### Poule Finale
 
-![Poule Finale Grid](Images/LPT_Grille_Poule_Finale.png "Poule Finale Grid")
+![Poule Finale Grid](images/LPT_Grille_Poule_Finale.png "Poule Finale Grid")
 
 ## Technologies used : React + TypeScript + Vite
 
