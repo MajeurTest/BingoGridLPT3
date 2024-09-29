@@ -10,32 +10,32 @@ const initialChallenges: Challenge[][] = [
 		{
 			content: "Faire le premier soleil des 3 premières zones",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, true, false]
 		},
 		{
 			content: "Faire dormir Mario",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		},
 		{
 			content: "Faire du surf sur un poulpe",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Faire un épisode sans prendre de dégât",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 	],
 	[
 		{
 			content: "Finir un épisode avec les 8 pièces rouges",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, false, true, false]
 		},
 		{
-			content: "Finir un épisode avec clavier/souris",
+			content: "Nettoyer le gros soleil de la Place Delphino",
 			points: 3,
 			completion: [false, false, false, false]
 		},
@@ -47,24 +47,24 @@ const initialChallenges: Challenge[][] = [
 		{
 			content: "Nettoyer un villageois",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		}
 	],
 	[
 		{
 			content: "Obtenir un soleil sans J.E.T.",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, true, false]
 		},
 		{
 			content: "Débloquer la zone 2 (Port Ricco)",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, true, false]
 		},
 		{
 			content: "Obtenir votre premier soleil",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		},
 		{
 			content: "Obtenir un soleil avec 100 pièces jaunes",
@@ -76,54 +76,47 @@ const initialChallenges: Challenge[][] = [
 		{
 			content: "Obtenir un soleil en combattant un boss",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, true, false]
 		},
 		{
 			content: "Obtenir un champi 1up",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, true, false]
 		},
 		{
 			content: "Détruire un graffiti",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		},
 		{
 			content: "Obtenir 5 pièces bleues",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, true, false]
 		}
 	]
 ];
 
 const initialPlayers: Player[] = [
 	{
-		name: "Jmde",
-		points: 0,
+		name: "Weenside",
+		points: 4,
 		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		displayPoints: 4,
+		lptPoints: 1
 	},
 	{
-		name: "Exo",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
-	},
-	{
-		name: "Astunz",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		name: "Azurit",
+		points: 17,
+		bonus: 2,
+		displayPoints: 21,
+		lptPoints: 3
 	},
 	{
 		name: "Konai",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		points: 15,
+		bonus: 2,
+		displayPoints: 19,
+		lptPoints: 3
 	},
 ]
 

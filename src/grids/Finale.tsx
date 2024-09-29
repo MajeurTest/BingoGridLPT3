@@ -11,17 +11,17 @@ const initialChallenges: Challenge[][] = [
 		{
 			content: "Obtenir un soleil caché sur la place Delphino",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Effectuer une supercharge au sol",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Faire sortir la crotte des sables",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Obtenir un soleil avec 100 pièces jaunes",
@@ -33,98 +33,91 @@ const initialChallenges: Challenge[][] = [
 		{
 			content: "Combattre un boss sans perdre un PV de l'épisode",
 			points: 3,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Obtenir un champi 1up",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Se faire envoyer en l'air",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, false, true]
 		},
 		{
 			content: "Trouver une nouvelle \"buse\" de JET",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		}
 	],
 	[
 		{
 			content: "Débloquer la zone 3 (Gelato-les-flots)",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Eclater un boss d'épisode pour la 2ème fois",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Eteindre le cul en feu d'un villegeois",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Obtenir un soleil depuis un niveau caché de la Place Delphino",
 			points: 3,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 	],
 	[
 		{
 			content: "Regarder le soleil sale depuis le dessin du soleil au sol",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Obtenir 10 pièces bleues",
 			points: 3,
-			completion: [false, false, false, false]
+			completion: [false, true, false, true]
 		},
 		{
 			content: "Prendre le canon direction le parc Pinna",
 			points: 3,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Faire un épisode sans prendre de dégât",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, false, true]
 		}
 	]
 ];
 
 const initialPlayers: Player[] = [
 	{
-		name: "Joueur 1",
-		points: 0,
+		name: "JmJm38",
+		points: 2,
 		bonus: 0,
-		displayPoints: 0,
+		displayPoints: 2,
 		lptPoints: 0
 	},
 	{
-		name: "Joueur 2",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		name: "Imjum",
+		points: 29,
+		bonus: 6,
+		displayPoints: 41,
+		lptPoints: 5
 	},
 	{
-		name: "Joueur 3",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
-	},
-	{
-		name: "Joueur 4",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		name: "Azurit",
+		points: 19,
+		bonus: 1,
+		displayPoints: 21,
+		lptPoints: 3
 	},
 ]
 

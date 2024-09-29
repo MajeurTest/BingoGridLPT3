@@ -11,121 +11,114 @@ const initialChallenges: Challenge[][] = [
 		{
 			content: "Faire sortir la crotte des sables",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Détruire un graffiti",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		},
 		{
 			content: "Faire 5 combats de boss (plantes visqueuses comprises)",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Finir un épisode avec les 8 pièces rouges",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 	],
 	[
 		{
 			content: "Obtenir un soleil en combattant un boss",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, false, false]
 		},
 		{
 			content: "Combattre un boss sans perdre une seule énergie de l'épisode",
 			points: 3,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Débloquer la zone 3 (Gelato-les-flots)",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Obtenir son premier soleil",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		}
 	],
 	[
 		{
 			content: "Trouver une nouvelle \"buse\" de J.E.T.",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Eteindre le cul en feu d'un villageois",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Obtenir votre première pièce bleue",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [true, true, true, false]
 		},
 		{
 			content: "Faire du surf sur un poulpe",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 	],
 	[
 		{
 			content: "Débloquer la zone 2 (Port Ricco)",
 			points: 1,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Obtenir 5 soleils",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		},
 		{
 			content: "Obtenir un soleil avec 1 seule barre d'énergie (sur 8)",
 			points: 2,
-			completion: [false, false, false, false]
+			completion: [true, true, false, false]
 		},
 		{
 			content: "Obtenir une pièce bleue dans les égouts",
 			points: 3,
-			completion: [false, false, false, false]
+			completion: [false, true, false, false]
 		}
 	]
 ];
 
 const initialPlayers: Player[] = [
 	{
-		name: "Azurit",
-		points: 0,
+		name: "Astunz",
+		points: 6,
 		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		displayPoints: 6,
+		lptPoints: 1
 	},
 	{
 		name: "Imjum",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
+		points: 27,
+		bonus: 8,
+		displayPoints: 43,
+		lptPoints: 6
 	},
 	{
-		name: "Weenside",
-		points: 0,
+		name: "JmJm38",
+		points: 3,
 		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
-	},
-	{
-		name: "Ultra",
-		points: 0,
-		bonus: 0,
-		displayPoints: 0,
-		lptPoints: 0
-	},
+		displayPoints: 3,
+		lptPoints: 1
+	}
 ]
 
 function Poule1() {
